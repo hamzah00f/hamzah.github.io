@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+    .poppins-thin {
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .poppins-extralight {
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .poppins-light {
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .poppins-regular {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .poppins-medium {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .poppins-semibold {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .poppins-bold {
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .poppins-extrabold {
+        font-family: "Poppins", serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .poppins-black {
+        font-family: "Poppins", serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .poppins-thin-italic {
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .poppins-extralight-italic {
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .poppins-light-italic {
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .poppins-regular-italic {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .poppins-medium-italic {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .poppins-semibold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .poppins-bold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .poppins-extrabold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    .poppins-black-italic {
+        font-family: "Poppins", serif;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+   
+}
+
+header {
+    background-color: #efe4c7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   position: fixed;
+    z-index: 999;
+    padding: 5px 150px;
+}
+
+.logo {
+    width: 140px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #38385c;
+    padding: 5px 10px;
+    font-weight: 800;
+    font-size: medium;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #38385c;
+    border-radius: 50px;
+    color: #f7f7f7;
+    transform: translateY(10px);
+
+}
+
+.main {
+    padding: 10px 160px;
+    background-color: #38385c;
+    color: #f7f7f7;
+    width: 100%;
+  
+  height: 100vh;
+    padding-right: 500px;
+    padding-top:300px ;
+    padding-bottom: 50px;
+
+    font-size: xx-large;
+}
+
+.main h2 {
+    font-size: 30px;
+}
+
+.main h3 {
+    padding: 15px 0;
+    font-size: 1.5em;
+}
+
+.main span {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 50px;
+    color: #efe4c7;
+}
+
+.main-button {
+    text-decoration: none;
+    padding: 8px;
+    color: #38385c;
+    border-radius: 9px;
+    background-color: #efe4c7;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.6s ease;
+
+}
+
+.main-button:hover {
+    transform: scale(1.1);
+    background-color: #ebddb8;
+}
+
+.main-icon a {
+    display: inline-block;
+    padding: 15px 0;
+    padding-right: 20px;
+    font-size: 1.6em;
+    transition: 0.6s ease;
+    color: #f7f7f7;}
+    .main-icon a:hover{
+        transform: scale(1.4);
+       
+    }
+.title{
+    display: flex;
+    justify-content: center;
+    color:#38385c;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+    
+}
+.card{
+    background-color: #ffffff;
+    width: 21.25em;
+    box-shadow:0 5px 25px rgba(1 1 1 / 15%) ;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 10px;
+     transition: 0.6s ease;
+
+}
+.card:hover{
+    transform: scale(1.4);
+}
+.icon{
+    text-align: center;
+    color: #ebddb8;
+  font-size: 50px;
+   
+}
+.info p{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.Projects{
+    background-color: #ebddb8;
+}
+.Projects .contact{                                       
+margin-top: 30px;
+}
+.Projects-card{
+    background-color: #f7f7f7;
+   border:3px solid #ffffff ;
+   min-height: 14em;
+   width: 23em;
+   overflow: hidden;
+   border-radius: 20px;
+   margin: 20px;
+   transition: 0.7s ease;
+}
+.Projects-card:hover{
+    transform: scale(1.1);
+}
+.Projects-card:hover .Projects-img{
+    opacity:0.9 ;
+}
+.Projects-img img{
+    width: 100%;
+    
+}
+.Projects-title{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.Projects-title a{
+    text-decoration: none;
+    color: #38385c;
+}
+.Projects-title a:hover{
+    color: #6767a3;
+}
+.Projects-info{padding: 10px;}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    header {
+        padding: 5px 50px;
+    }
+
+    .main {
+        padding: 10px 50px;
+        padding-right: 20px;
+        padding-top: 150px;
+        font-size: large;
+    }
+
+    .card, .Projects-card {
+        width: 18em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        font-size: small;
+    }
+
+    .main {
+        padding: 10px 30px;
+        padding-top: 100px;
+        font-size: medium;
+    }
+
+    .card, .Projects-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px 20px;
+    }
+
+    .main {
+        padding: 10px;
+        padding-top: 80px;
+        font-size: small;
+    }
+
+    nav a {
+        font-size: x-small;
+    }
+
+    .card, .Projects-card {
+        width: 100%;
+    }
+}
