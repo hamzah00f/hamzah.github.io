@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    font: 2em sans-serif;
+}
+
+.all-header {
+    background-color: #1a4147;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+
+
+}
+
+.all-header div a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.all-header div a:hover {
+    background-color: #255b64;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+
+.button {
+    background-color: #64255b;
+    border-radius: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+
+
+}
+
+.button:hover {
+    background-color: #813075;
+    padding: 6px;
+    border-radius: 30px;
+
+}
+.button-1 {
+    background-color: #64255b;
+    border-radius: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+    top: -4px;
+
+
+}
+
+.button-1:hover {
+    background-color: #813075;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.Logo {
+    width: 180px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a4147;
+    color: #ffffff;
+    padding: 25px 50px;
+    border-radius: 0 0 50px 50px;
+
+}
+
+
+.main p {
+    width: 550px;
+}
+
+.main img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.main button {
+    position: relative;
+    padding: 9px;
+    left: -35px;
+}
+
+.main button:hover {
+    padding: 9px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 30px;
+    border: none;
+
+    outline: none;
+
+}
+
+.Trending {
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Trending-2 h2 {
+    margin: 0;
+}
+
+.Trending-2 span {
+    color: #e10808;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.card-img img {
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+    width: 265px;
+}
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8fa;
+    
+    position: relative;
+    top: -20px;
+    border-radius:0 0 20px 20px ;
+    
+}
+
+.card {
+    width: 265px;
+    height: 400px;
+margin: 20px;
+   
+}
+
+
+.online-shopping img {
+    width: 49px;
+    padding-right: 6px;
+}
+.online-shopping img:hover{
+    transform: scale(1.1);
+}
+.alll{
+    display: flex;
+ 
+}
+.text{
+    font-size: 15px;
+    padding: 4px;
+
+}
+.text p{
+    color: #615d5d;
+}
+.top2-games{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+.top2-games span{
+    color: #e10808;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 25px 50px;
+}
+.top2-games h2{
+    margin: 0;
+}
+.top-games{
+    background-color:#f0f8fa;
+    border-radius: 100px
+     ;
+     padding: 25px;
+}
+.tham{
+    padding-top: 25px;
+    
+    width: 255px;
+
+}
+.tham p{
+font-size: 15px;
+position: relative;
+left: 50px;
+color: #615d5d;
+}
+.tham h4{
+    font: sans-serif;
+    font-size: 20px;
+    margin-top:2px ;
+    margin-bottom: 0;
+    position: relative;
+    left: 30px;
+    top:-5px;
+}
+.tham button{
+    position: relative;
+    left: 40px;
+    padding: 20px;
+    top:10px
+
+}
+.tham img{
+    border-radius: 25px;
+}
+.tham button:hover{
+    position: relative;
+    left: 40px;
+    padding: 20px;
+
+}
+.tham-all{
+    display: flex;
+    
+}
+.top-CategorieS {
+  
+position:relative;
+left: 600px;
+}
+.top-CategorieS span{
+    color: #e10808;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left:90px ;
+    
+    
+
+}
+.top-CategorieS h2{margin: 0;
+    }
+    .Top-img {
+        width: 220px;
+        position: relative;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .Top-img p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #337b8d; /* لون خلفية المستطيل */
+        color: #fff; /* لون النص */
+        margin: 0;
+        padding: 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .Top-img img {
+        width: 100%;
+        border-radius: 15px; /* انحناء للصورة */
+    }.Top-img:hover{
+        transform: scale(1.1);
+    }
+.allllllll{
+    display: flex;
+
+}
+footer{
+    background-color:#1a4147;
+    color: #ffffff;
+    padding:40px 25px 25px 25px;
+
+    font-size: medium;
+   
+    border-radius: 440px 440px 0 0;
+}
+    
+    
+
+
+
